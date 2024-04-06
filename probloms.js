@@ -1,5 +1,5 @@
 
-//  Explain the concept of prime numbers and write a function to check if a given number is prime.
+// 1. Explain the concept of prime numbers and write a function to check if a given number is prime.
 
 // prime num 
 
@@ -25,7 +25,7 @@ if(num%i===0){
 console.log(isPrimeNumber(6))
 
 
-//  Write a function to find the largest element in an array.
+// 2. Write a function to find the largest element in an array.
 
 const findLargestElement=(nums)=>{
    
@@ -37,7 +37,7 @@ console.log(findLargestElement(arr))
 
 
 
-//  Write a function to find the second largest element in an array.
+// 3. Write a function to find the second largest element in an array.
 const findsecondLargestElement=(nums)=>{
 
 const sorted= nums.sort((a,b)=>b-a)
@@ -48,7 +48,7 @@ return `${sorted[1]} secondLargest Element`
 console.log(findsecondLargestElement(arr))
 
 
-//  Write a function to find the nth Fibonacci number using iteration
+// 4. Write a function to find the nth Fibonacci number using iteration
 
 const findFibonacciSeries=(n)=>{
 
@@ -66,7 +66,7 @@ const n=6;
 console.log(findFibonacciSeries(n))
 
 
-// Write a function to calculate the factorial of a number using iteration.
+// 5. Write a function to calculate the factorial of a number using iteration.
 
 const factorialOfNumber=(num)=>{
 let result=1;
